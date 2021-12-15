@@ -1,0 +1,35 @@
+.block {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background: royalblue;
+}
+.d-flex {
+    display: flex;
+}
+
+.alive, .dead {
+    width: 5px;
+    height: 5px;
+    border: solid #ccc;
+    border-width: 0.01em;
+}
+
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: red;
+    
+}
+
+.boutton{
+    height: 20px;
+}
+
+.dead {
+    background-color : white !important
+}
+.vie{
+    background: linear-gradient(to bottom, red,yellow);
+}
